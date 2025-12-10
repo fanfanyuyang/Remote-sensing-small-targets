@@ -1,0 +1,17 @@
+# UAVid dataset for YOLOv8 segmentation
+train: /tmp/pycharm_project_284/datasets/UAVidDataset_processed/images/train
+val: /tmp/pycharm_project_284/datasets/UAVidDataset_processed/images/val
+
+# 类别数量
+nc: 7
+
+# 类别名称
+names:
+  - Background
+  - Buildings
+  - Roads
+  - Static_Car
+  - Trees
+  - Low_Vegetation
+  - Moving_Car
+
