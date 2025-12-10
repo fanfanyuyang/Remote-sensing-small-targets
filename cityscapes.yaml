@@ -1,0 +1,27 @@
+# YOLOv8-seg dataset config for Cityscapes
+path: datasets/cityscapes_yolo  # 数据集根目录，注意用正斜杠
+
+train: images/train
+val: images/val
+
+# 类别（Cityscapes 19 类，根据你的需要可以选择训练子集，这里示例只保留常用车辆+行人类）
+names:
+  0: road
+  1: sidewalk
+  2: building
+  3: wall
+  4: fence
+  5: pole
+  6: traffic_light
+  7: traffic_sign
+  8: vegetation
+  9: terrain
+  10: sky
+  11: person
+  12: rider
+  13: car
+  14: truck
+  15: bus
+  16: train
+  17: motorcycle
+  18: bicycle
